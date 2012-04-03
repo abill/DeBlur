@@ -39,6 +39,6 @@ else
         end;
     end;
 end;
-EdgeR=checkForGaps(output2); % перевіряєм чи нема розривів в лінії, як є  - заповнюємо їх
-EdgeL=checkForGaps(output);
+EdgeR=checkForGaps(output2, XY); % перевіряєм чи нема розривів в лінії, як є  - заповнюємо їх
+EdgeL=checkForGaps(output, XY);
 end
